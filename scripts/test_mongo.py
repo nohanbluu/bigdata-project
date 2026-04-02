@@ -1,8 +1,7 @@
 ﻿from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-# GANTI URI DI BAWAH DENGAN CONNECTION STRING MONGODB ATLAS KAMU
-uri = "mongodb+srv://USERNAME:PASSWORD@cluster0.xxxxx.mongodb.net/?appName=Cluster0"
+uri = "mongodb+srv://nohanbluu_db_user:iCoQlXNctEOSxCFP@cluster0.3e2jqxm.mongodb.net/?appName=Cluster0"
 
 client = MongoClient(uri, server_api=ServerApi('1'))
 try:
