@@ -1,6 +1,0 @@
-﻿pyspark
-pymongo
-pandas
-matplotlib
-pyarrow
-streamlit
